@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1em;
+  font-family: "Karla", sans-serif;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  background-color: #e5eff5;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 3vh 2vw;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+          box-shadow: 0px 1px 3px #666666;
+  position: relative;
+  height: 450px;
+  width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.grid .box1 {
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 20px;
+}
+
+.grid .box1 h2 {
+  color: #2ab2af;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.grid .box1 h3 {
+  color: #c0df34;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.grid .box1 p {
+  color: #98a6bd;
+}
+
+.grid .box2 {
+  background-color: #2ab2af;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+}
+
+.grid .box2 h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #e5eff5;
+}
+
+.grid .box2 p {
+  color: #e5eff5;
+}
+
+.grid .box2 p span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.grid .box3 {
+  background-color: #3dd1cf;
+  padding: 20px;
+  color: #e5eff5;
+  border-bottom-right-radius: 10px;
+}
+
+.grid .box3 h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.grid .box3 .list {
+  list-style: none;
+  padding: 0;
+}
+
+.grid .box3 .list-item {
+  margin-bottom: 0.25em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #c0df34;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.8em 0;
+  text-align: center;
+  color: #e5eff5;
+  width: 100%;
+}
+
+.btn:hover, .btn:focus {
+  background: #d4ea76;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
